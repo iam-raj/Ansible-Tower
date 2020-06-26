@@ -1,0 +1,10 @@
+[tower_nodes]
+node1.example.com ansible_host=10.10.10.21
+node2.example.com ansible_host=10.10.10.22
+
+
+[tower_db_primary]
+db-pri ansible_host=10.10.10.23 pgsqlrep_role=master
+
+[tower_db_secondary]
+db-sec ansible_host=10.10.10.24 pgsqlrep_role=replica

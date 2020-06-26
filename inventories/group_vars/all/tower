@@ -1,0 +1,9 @@
+---
+tower_nodes:
+  - 10.10.10.21
+  - 10.10.10.22
+
+tower_db_primary: 10.10.10.23
+tower_db_secondary: 10.10.10.24
+
+tower_isolated_nodes: false
